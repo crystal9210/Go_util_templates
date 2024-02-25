@@ -80,7 +80,7 @@ func main() {
 	}
 
 	// メッセージを初期化
-	message := "Hello, world!" // ここでmessage変数を初期化
+	message := "Hello, world!"
 
 	// メッセージを暗号化
 	encryptedMessage, err := EncryptWithAESGCM(sharedSecretA, []byte(message))

@@ -1,0 +1,86 @@
+@startuml
+namespace main {
+    class DataItem << (S,Aquamarine) >> {
+        + Key string
+        + Value string
+
+    }
+    class Int << (S,Aquamarine) >> {
+        + Eq(m Item) bool
+        + Less(m Item) bool
+
+    }
+    interface Item  {
+        + Eq( Item) bool
+        + Less( Item) bool
+
+    }
+    class Node << (S,Aquamarine) >> {
+        - item Item
+        - left *Node
+
+    }
+    class Shard << (S,Aquamarine) >> {
+        + ID int
+        + Data <font color=blue>map</font>[string]string
+
+        + InsertData(key string, value string) 
+        + GetData(key string) (string, bool)
+
+    }
+    class Tree << (S,Aquamarine) >> {
+        - root *Node
+
+        - insertTree(x Item) 
+        - searchTree(x Item) bool
+        - deleteTree(x Item) 
+        - printTree() 
+
+    }
+    class keyPair << (S,Aquamarine) >> {
+        - priKey *[]byte
+        - pubKey *[]byte
+
+        + KeyExcahenge(publicKey []byte) ([]byte, error)
+
+    }
+    class main.Int << (T, #FF7700) >>  {
+    }
+}
+
+"main.Item" <|-- "main.Int"
+
+namespace pool {
+    class Collector << (S,Aquamarine) >> {
+        - endWg sync.WaitGroup
+
+        + Work <font color=blue>chan</font> Work
+        + End <font color=blue>chan</font> bool
+        + WorkerDone <font color=blue>chan</font> bool
+        + Workers []Worker
+
+        + StopWorkers() 
+
+    }
+    class Work << (S,Aquamarine) >> {
+        + ID int
+        + Job string
+
+    }
+    class Worker << (S,Aquamarine) >> {
+        - wg *sync.WaitGroup
+
+        + ID int
+        + WorkerChannel <font color=blue>chan</font> <font color=blue>chan</font> Work
+        + Channel <font color=blue>chan</font> Work
+        + End <font color=blue>chan</font> bool
+
+        + Start(endWg *sync.WaitGroup) 
+        + Stop() 
+
+    }
+}
+
+
+"__builtin__.int" #.. "main.Int"
+@enduml

@@ -1,0 +1,14 @@
+・collector.Work <- pool.Work{Job: job, ID: i}：
+①pool.Work{Job: job, ID: i}: これは、Work構造体の新しいインスタンスを作成
+②collector.Work: Collector構造体内のWorkチャネルです。このチャネルは、外部からのジョブを受け取るために使用されます。ジョブはこのチャネルを通じてCollectorに送信され、その後、利用可能なワーカーに割り当てられます。
+③collector.Work <- ...: この式は、Workチャネルを通じてCollectorに新しいジョブ（Work構造体のインスタンス）を送信しています。つまり、新しい作業項目がディスパッチャーに送られ、ディスパッチャーはその作業を処理するために利用可能なワーカーを見つけることになります。
+→dispatcher.go-l:53；case work := <-input:において、input⇔pool.Work{Job: job, ID: i}となっている
+→
+☆
+case work := <-input:
+				worker := <-WorkerChannel
+				worker <- work
+			部分の処理の説明：
+      inputがworkに格納されそのまま型推論でinputを値とするWork型の変数が生成される。
+      そして、WorkerChannelから空いている、処理が可能なworkerインスタンスが渡されるまで処理をブロック
+      →workerインスタンスをゴルーチンが受け取ったら処理が進行し、workerにworkが渡され、workが処理される
