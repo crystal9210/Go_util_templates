@@ -1,0 +1,18 @@
+func (m *MockSample) Method(s string) int
+
+この関数は、MockSample 構造体のメソッドとして定義されています。このメソッドは、引数として文字列 s を受け取り、整数を返します。このメソッドはモック化されたメソッドであり、実際の動作ではなく、テストコードでの期待される振る舞いを提供します。
+
+m: MockSample 構造体のレシーバです。このメソッドが呼び出される MockSample インスタンスへの参照です。
+s string: メソッドに渡される文字列引数です。
+m.ctrl.T.Helper(): m.ctrl フィールドにアクセスして、関連する gomock.Controller から Helper() メソッドを呼び出します。これは、このメソッドがテストヘルパーであることをマークし、テスト失敗時のスタックトレースを読みやすくします。
+ret := m.ctrl.Call(m, "Method", s): m.ctrl から Call メソッドを呼び出し、実際のメソッド呼び出しをシミュレートします。ここでは "Method" というメソッド名と引数 s を指定しています。
+ret0, _ := ret[0].(int): Call メソッドの結果として返された値を取得します。戻り値は interface{} 型のスライスであり、最初の要素を整数型にアサーションします。
+return ret0: モックメソッドの戻り値として整数値を返します。
+func (mr *MockSampleMockRecorder) Method(s interface{}) *gomock.Call
+
+この関数は、MockSampleMockRecorder 構造体のメソッドとして定義されています。このメソッドは、Method メソッドの呼び出しを記録し、期待される呼び出しを定義します。
+
+mr: MockSampleMockRecorder 構造体のレシーバです。このメソッドが呼び出される MockSampleMockRecorder インスタンスへの参照です。
+s interface{}: メソッドに渡される引数です。このメソッドでは、インターフェース型を受け取り、具体的な型は呼び出し元でアサーションされます。
+mr.mock.ctrl.T.Helper(): mr.mock.ctrl フィールドにアクセスして、関連する gomock.Controller から Helper() メソッドを呼び出します。これは、このメソッドがテストヘルパーであることをマークし、テスト失敗時のスタックトレースを読みやすくします。
+return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Method", reflect.TypeOf((*MockSample)(nil).Method), s): mr.mock.ctrl の RecordCallWithMethodType メソッドを呼び出し、メソッドの呼び出しを記録します。ここでは "Method" というメソッド名、および MockSample の Method メソッドの型情報を指定しています。

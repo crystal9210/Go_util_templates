@@ -1,0 +1,20 @@
+people: [
+  {
+    name: "John Doe"
+    id: 1234
+    email: "johndoe@example.com"
+    phones: [
+      { number: "555-4321" type: HOME }
+    ]
+    last_updated: { seconds: 1622548800 }
+  },
+  {
+    name: "Jane Roe"
+    id: 5678
+    email: "janeroe@example.com"
+    phones: [
+      { number: "555-5678" type: MOBILE }
+    ]
+    last_updated: { seconds: 1622548800 }
+  }
+]
