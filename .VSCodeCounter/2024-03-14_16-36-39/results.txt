@@ -1,0 +1,181 @@
+Date : 2024-03-14 16:36:39
+Directory : /home/crystal9210/Go_util_templates
+Total : 96 files,  3664 codes, 0 comments, 794 blanks, all 4458 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| Go               |         80 |      3,388 |          0 |        751 |      4,139 |
+| Go Checksum File |          6 |        161 |          0 |          6 |        167 |
+| Go Module File   |          9 |         70 |          0 |         25 |         95 |
+| Protocol Buffers |          1 |         45 |          0 |         12 |         57 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                     | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                        |         96 |      3,664 |          0 |        794 |      4,458 |
+| . (Files)                                                                                                                |          1 |        164 |          0 |         26 |        190 |
+| E2EE                                                                                                                     |          7 |        191 |          0 |         48 |        239 |
+| GoAsyncWorkerPool                                                                                                        |          6 |        194 |          0 |         38 |        232 |
+| GoAsyncWorkerPool (Files)                                                                                                |          4 |         65 |          0 |         19 |         84 |
+| GoAsyncWorkerPool/pool                                                                                                   |          1 |         95 |          0 |         12 |        107 |
+| GoAsyncWorkerPool/work                                                                                                   |          1 |         34 |          0 |          7 |         41 |
+| advance_examples                                                                                                         |          6 |        262 |          0 |         39 |        301 |
+| advance_examples (Files)                                                                                                 |          4 |        164 |          0 |         19 |        183 |
+| advance_examples/context                                                                                                 |          2 |         98 |          0 |         20 |        118 |
+| bad                                                                                                                      |          1 |        139 |          0 |         20 |        159 |
+| fundamentals                                                                                                             |         14 |        357 |          0 |        116 |        473 |
+| go_worker_pool                                                                                                           |          6 |        204 |          0 |         41 |        245 |
+| go_worker_pool (Files)                                                                                                   |          3 |         71 |          0 |         20 |         91 |
+| go_worker_pool/pool                                                                                                      |          2 |         88 |          0 |         14 |        102 |
+| go_worker_pool/work                                                                                                      |          1 |         45 |          0 |          7 |         52 |
+| grpc_ex                                                                                                                  |          6 |        581 |          0 |         95 |        676 |
+| grpc_ex (Files)                                                                                                          |          3 |         56 |          0 |         16 |         72 |
+| grpc_ex/cmd                                                                                                              |          2 |        170 |          0 |         29 |        199 |
+| grpc_ex/cmd/add_person                                                                                                   |          1 |        116 |          0 |         17 |        133 |
+| grpc_ex/cmd/list_people                                                                                                  |          1 |         54 |          0 |         12 |         66 |
+| grpc_ex/github.com                                                                                                       |          1 |        355 |          0 |         50 |        405 |
+| grpc_ex/github.com/protocolbuffers                                                                                       |          1 |        355 |          0 |         50 |        405 |
+| grpc_ex/github.com/protocolbuffers/protobuf                                                                              |          1 |        355 |          0 |         50 |        405 |
+| grpc_ex/github.com/protocolbuffers/protobuf/examples                                                                     |          1 |        355 |          0 |         50 |        405 |
+| grpc_ex/github.com/protocolbuffers/protobuf/examples/go                                                                  |          1 |        355 |          0 |         50 |        405 |
+| grpc_ex/github.com/protocolbuffers/protobuf/examples/go/tutorialpb                                                       |          1 |        355 |          0 |         50 |        405 |
+| learn_channelOfGo                                                                                                        |          1 |         62 |          0 |          7 |         69 |
+| learn_nethttp_package_go                                                                                                 |          1 |         17 |          0 |          5 |         22 |
+| redis_db                                                                                                                 |          4 |        370 |          0 |         92 |        462 |
+| serverpush                                                                                                               |          3 |        104 |          0 |         21 |        125 |
+| sharding                                                                                                                 |          4 |         97 |          0 |         24 |        121 |
+| test_practice                                                                                                            |         36 |        922 |          0 |        222 |      1,144 |
+| test_practice (Files)                                                                                                    |          2 |         49 |          0 |          5 |         54 |
+| test_practice/benchmark                                                                                                  |          3 |         68 |          0 |         20 |         88 |
+| test_practice/benchmark/animals                                                                                          |          2 |         58 |          0 |         16 |         74 |
+| test_practice/benchmark/foods                                                                                            |          1 |         10 |          0 |          4 |         14 |
+| test_practice/calc                                                                                                       |          2 |         29 |          0 |          6 |         35 |
+| test_practice/defaultpack_mock                                                                                           |          3 |         67 |          0 |         20 |         87 |
+| test_practice/defaultpack_mock (Files)                                                                                   |          2 |         26 |          0 |         10 |         36 |
+| test_practice/defaultpack_mock/mock_sample                                                                               |          1 |         41 |          0 |         10 |         51 |
+| test_practice/easy_subtest                                                                                               |          3 |         56 |          0 |         17 |         73 |
+| test_practice/easy_subtest/animals                                                                                       |          2 |         46 |          0 |         13 |         59 |
+| test_practice/easy_subtest/foods                                                                                         |          1 |         10 |          0 |          4 |         14 |
+| test_practice/integration_test                                                                                           |          6 |        171 |          0 |         36 |        207 |
+| test_practice/integration_test (Files)                                                                                   |          2 |         26 |          0 |          9 |         35 |
+| test_practice/integration_test/handler                                                                                   |          2 |        120 |          0 |         20 |        140 |
+| test_practice/integration_test/model                                                                                     |          1 |          6 |          0 |          2 |          8 |
+| test_practice/integration_test/repository                                                                                |          1 |         19 |          0 |          5 |         24 |
+| test_practice/mock                                                                                                       |          3 |         72 |          0 |         20 |         92 |
+| test_practice/mock (Files)                                                                                               |          2 |         27 |          0 |         10 |         37 |
+| test_practice/mock/mock_sample                                                                                           |          1 |         45 |          0 |         10 |         55 |
+| test_practice/re_mock_with_testify                                                                                       |          2 |         73 |          0 |         18 |         91 |
+| test_practice/re_testify_test                                                                                            |          2 |         77 |          0 |         15 |         92 |
+| test_practice/re_unit_test                                                                                               |          2 |         44 |          0 |         13 |         57 |
+| test_practice/somefunc                                                                                                   |          2 |         44 |          0 |         13 |         57 |
+| test_practice/someprocess                                                                                                |          2 |         33 |          0 |          8 |         41 |
+| test_practice/sub_test_out                                                                                               |          2 |         65 |          0 |          7 |         72 |
+| test_practice/testify                                                                                                    |          2 |         74 |          0 |         24 |         98 |
++--------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                                                                 | language         | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| /home/crystal9210/Go_util_templates/E2EE/ecdh.go                                                                         | Go               |         22 |          0 |          5 |         27 |
+| /home/crystal9210/Go_util_templates/E2EE/encryption.go                                                                   | Go               |         54 |          0 |         13 |         67 |
+| /home/crystal9210/Go_util_templates/E2EE/generateKey.go                                                                  | Go               |         22 |          0 |          5 |         27 |
+| /home/crystal9210/Go_util_templates/E2EE/go.mod                                                                          | Go Module File   |          3 |          0 |          3 |          6 |
+| /home/crystal9210/Go_util_templates/E2EE/go.sum                                                                          | Go Checksum File |          2 |          0 |          1 |          3 |
+| /home/crystal9210/Go_util_templates/E2EE/keyExchange.go                                                                  | Go               |          5 |          0 |          3 |          8 |
+| /home/crystal9210/Go_util_templates/E2EE/main.go                                                                         | Go               |         83 |          0 |         18 |        101 |
+| /home/crystal9210/Go_util_templates/GoAsyncWorkerPool/bench_test.go                                                      | Go               |         21 |          0 |          6 |         27 |
+| /home/crystal9210/Go_util_templates/GoAsyncWorkerPool/go.mod                                                             | Go Module File   |          2 |          0 |          2 |          4 |
+| /home/crystal9210/Go_util_templates/GoAsyncWorkerPool/go.sum                                                             | Go Checksum File |          0 |          0 |          1 |          1 |
+| /home/crystal9210/Go_util_templates/GoAsyncWorkerPool/main.go                                                            | Go               |         42 |          0 |         10 |         52 |
+| /home/crystal9210/Go_util_templates/GoAsyncWorkerPool/pool/dispatcher.go                                                 | Go               |         95 |          0 |         12 |        107 |
+| /home/crystal9210/Go_util_templates/GoAsyncWorkerPool/work/work.go                                                       | Go               |         34 |          0 |          7 |         41 |
+| /home/crystal9210/Go_util_templates/advance_examples/context/context.go                                                  | Go               |         58 |          0 |         13 |         71 |
+| /home/crystal9210/Go_util_templates/advance_examples/context/context_test.go                                             | Go               |         40 |          0 |          7 |         47 |
+| /home/crystal9210/Go_util_templates/advance_examples/gin_context.go                                                      | Go               |         41 |          0 |         10 |         51 |
+| /home/crystal9210/Go_util_templates/advance_examples/go.mod                                                              | Go Module File   |         30 |          0 |          3 |         33 |
+| /home/crystal9210/Go_util_templates/advance_examples/go.sum                                                              | Go Checksum File |         83 |          0 |          1 |         84 |
+| /home/crystal9210/Go_util_templates/advance_examples/interface.go                                                        | Go               |         10 |          0 |          5 |         15 |
+| /home/crystal9210/Go_util_templates/bad/bad.go                                                                           | Go               |        139 |          0 |         20 |        159 |
+| /home/crystal9210/Go_util_templates/btree.go                                                                             | Go               |        164 |          0 |         26 |        190 |
+| /home/crystal9210/Go_util_templates/fundamentals/baffaringchannel.go                                                     | Go               |         22 |          0 |          7 |         29 |
+| /home/crystal9210/Go_util_templates/fundamentals/channel.go                                                              | Go               |         16 |          0 |          9 |         25 |
+| /home/crystal9210/Go_util_templates/fundamentals/closing_channels.go                                                     | Go               |         40 |          0 |         11 |         51 |
+| /home/crystal9210/Go_util_templates/fundamentals/directions_channel.go                                                   | Go               |         19 |          0 |          6 |         25 |
+| /home/crystal9210/Go_util_templates/fundamentals/goroutine.go                                                            | Go               |         26 |          0 |         10 |         36 |
+| /home/crystal9210/Go_util_templates/fundamentals/non_blocking_channel_operation.go                                       | Go               |         37 |          0 |         13 |         50 |
+| /home/crystal9210/Go_util_templates/fundamentals/range_over_channels.go                                                  | Go               |         12 |          0 |          6 |         18 |
+| /home/crystal9210/Go_util_templates/fundamentals/select.go                                                               | Go               |         25 |          0 |          5 |         30 |
+| /home/crystal9210/Go_util_templates/fundamentals/ticker.go                                                               | Go               |         24 |          0 |          6 |         30 |
+| /home/crystal9210/Go_util_templates/fundamentals/timeout.go                                                              | Go               |         30 |          0 |          6 |         36 |
+| /home/crystal9210/Go_util_templates/fundamentals/timers.go                                                               | Go               |         30 |          0 |         11 |         41 |
+| /home/crystal9210/Go_util_templates/fundamentals/waitgroup.go                                                            | Go               |         16 |          0 |          7 |         23 |
+| /home/crystal9210/Go_util_templates/fundamentals/waitgroups.go                                                           | Go               |         31 |          0 |         12 |         43 |
+| /home/crystal9210/Go_util_templates/fundamentals/workerpool.go                                                           | Go               |         29 |          0 |          7 |         36 |
+| /home/crystal9210/Go_util_templates/go_worker_pool/bench_test.go                                                         | Go               |         21 |          0 |          6 |         27 |
+| /home/crystal9210/Go_util_templates/go_worker_pool/go.mod                                                                | Go Module File   |          2 |          0 |          2 |          4 |
+| /home/crystal9210/Go_util_templates/go_worker_pool/main.go                                                               | Go               |         48 |          0 |         12 |         60 |
+| /home/crystal9210/Go_util_templates/go_worker_pool/pool/dispatcher.go                                                    | Go               |         44 |          0 |          8 |         52 |
+| /home/crystal9210/Go_util_templates/go_worker_pool/pool/worker.go                                                        | Go               |         44 |          0 |          6 |         50 |
+| /home/crystal9210/Go_util_templates/go_worker_pool/work/work.go                                                          | Go               |         45 |          0 |          7 |         52 |
+| /home/crystal9210/Go_util_templates/grpc_ex/addressbook.proto                                                            | Protocol Buffers |         45 |          0 |         12 |         57 |
+| /home/crystal9210/Go_util_templates/grpc_ex/cmd/add_person/add_person.go                                                 | Go               |        116 |          0 |         17 |        133 |
+| /home/crystal9210/Go_util_templates/grpc_ex/cmd/list_people/list_people.go                                               | Go               |         54 |          0 |         12 |         66 |
+| /home/crystal9210/Go_util_templates/grpc_ex/github.com/protocolbuffers/protobuf/examples/go/tutorialpb/addressbook.pb.go | Go               |        355 |          0 |         50 |        405 |
+| /home/crystal9210/Go_util_templates/grpc_ex/go.mod                                                                       | Go Module File   |          3 |          0 |          3 |          6 |
+| /home/crystal9210/Go_util_templates/grpc_ex/go.sum                                                                       | Go Checksum File |          8 |          0 |          1 |          9 |
+| /home/crystal9210/Go_util_templates/learn_channelOfGo/main.go                                                            | Go               |         62 |          0 |          7 |         69 |
+| /home/crystal9210/Go_util_templates/learn_nethttp_package_go/main.go                                                     | Go               |         17 |          0 |          5 |         22 |
+| /home/crystal9210/Go_util_templates/redis_db/aof.go                                                                      | Go               |         50 |          0 |         12 |         62 |
+| /home/crystal9210/Go_util_templates/redis_db/handler.go                                                                  | Go               |        108 |          0 |         28 |        136 |
+| /home/crystal9210/Go_util_templates/redis_db/main.go                                                                     | Go               |         54 |          0 |         18 |         72 |
+| /home/crystal9210/Go_util_templates/redis_db/resp.go                                                                     | Go               |        158 |          0 |         34 |        192 |
+| /home/crystal9210/Go_util_templates/serverpush/go.mod                                                                    | Go Module File   |         14 |          0 |          4 |         18 |
+| /home/crystal9210/Go_util_templates/serverpush/go.sum                                                                    | Go Checksum File |         31 |          0 |          1 |         32 |
+| /home/crystal9210/Go_util_templates/serverpush/main.go                                                                   | Go               |         59 |          0 |         16 |         75 |
+| /home/crystal9210/Go_util_templates/sharding/data.go                                                                     | Go               |         15 |          0 |          4 |         19 |
+| /home/crystal9210/Go_util_templates/sharding/go.mod                                                                      | Go Module File   |          2 |          0 |          2 |          4 |
+| /home/crystal9210/Go_util_templates/sharding/main.go                                                                     | Go               |         54 |          0 |         11 |         65 |
+| /home/crystal9210/Go_util_templates/sharding/shard.go                                                                    | Go               |         26 |          0 |          7 |         33 |
+| /home/crystal9210/Go_util_templates/test_practice/benchmark/animals/animals.go                                           | Go               |         13 |          0 |          5 |         18 |
+| /home/crystal9210/Go_util_templates/test_practice/benchmark/animals/animals_test.go                                      | Go               |         45 |          0 |         11 |         56 |
+| /home/crystal9210/Go_util_templates/test_practice/benchmark/foods/foods.go                                               | Go               |         10 |          0 |          4 |         14 |
+| /home/crystal9210/Go_util_templates/test_practice/calc/calc.go                                                           | Go               |          4 |          0 |          2 |          6 |
+| /home/crystal9210/Go_util_templates/test_practice/calc/calc_test.go                                                      | Go               |         25 |          0 |          4 |         29 |
+| /home/crystal9210/Go_util_templates/test_practice/defaultpack_mock/mock_sample/mock_sample.go                            | Go               |         41 |          0 |         10 |         51 |
+| /home/crystal9210/Go_util_templates/test_practice/defaultpack_mock/sample.go                                             | Go               |          5 |          0 |          2 |          7 |
+| /home/crystal9210/Go_util_templates/test_practice/defaultpack_mock/sample_test.go                                        | Go               |         21 |          0 |          8 |         29 |
+| /home/crystal9210/Go_util_templates/test_practice/easy_subtest/animals/animals.go                                        | Go               |         13 |          0 |          5 |         18 |
+| /home/crystal9210/Go_util_templates/test_practice/easy_subtest/animals/animals_test.go                                   | Go               |         33 |          0 |          8 |         41 |
+| /home/crystal9210/Go_util_templates/test_practice/easy_subtest/foods/foods.go                                            | Go               |         10 |          0 |          4 |         14 |
+| /home/crystal9210/Go_util_templates/test_practice/go.mod                                                                 | Go Module File   |         12 |          0 |          4 |         16 |
+| /home/crystal9210/Go_util_templates/test_practice/go.sum                                                                 | Go Checksum File |         37 |          0 |          1 |         38 |
+| /home/crystal9210/Go_util_templates/test_practice/integration_test/go.mod                                                | Go Module File   |          2 |          0 |          2 |          4 |
+| /home/crystal9210/Go_util_templates/test_practice/integration_test/handler/handler.go                                    | Go               |         64 |          0 |         11 |         75 |
+| /home/crystal9210/Go_util_templates/test_practice/integration_test/handler/handler_test.go                               | Go               |         56 |          0 |          9 |         65 |
+| /home/crystal9210/Go_util_templates/test_practice/integration_test/main.go                                               | Go               |         24 |          0 |          7 |         31 |
+| /home/crystal9210/Go_util_templates/test_practice/integration_test/model/user.go                                         | Go               |          6 |          0 |          2 |          8 |
+| /home/crystal9210/Go_util_templates/test_practice/integration_test/repository/user.go                                    | Go               |         19 |          0 |          5 |         24 |
+| /home/crystal9210/Go_util_templates/test_practice/mock/mock_sample/mock_sample.go                                        | Go               |         45 |          0 |         10 |         55 |
+| /home/crystal9210/Go_util_templates/test_practice/mock/sample.go                                                         | Go               |          4 |          0 |          2 |          6 |
+| /home/crystal9210/Go_util_templates/test_practice/mock/sample_test.go                                                    | Go               |         23 |          0 |          8 |         31 |
+| /home/crystal9210/Go_util_templates/test_practice/re_mock_with_testify/main.go                                           | Go               |         37 |          0 |          9 |         46 |
+| /home/crystal9210/Go_util_templates/test_practice/re_mock_with_testify/main_test.go                                      | Go               |         36 |          0 |          9 |         45 |
+| /home/crystal9210/Go_util_templates/test_practice/re_testify_test/main.go                                                | Go               |         12 |          0 |          4 |         16 |
+| /home/crystal9210/Go_util_templates/test_practice/re_testify_test/main_test.go                                           | Go               |         65 |          0 |         11 |         76 |
+| /home/crystal9210/Go_util_templates/test_practice/re_unit_test/main.go                                                   | Go               |          9 |          0 |          4 |         13 |
+| /home/crystal9210/Go_util_templates/test_practice/re_unit_test/main_test.go                                              | Go               |         35 |          0 |          9 |         44 |
+| /home/crystal9210/Go_util_templates/test_practice/somefunc/somefunc.go                                                   | Go               |         14 |          0 |          6 |         20 |
+| /home/crystal9210/Go_util_templates/test_practice/somefunc/somefunc_test.go                                              | Go               |         30 |          0 |          7 |         37 |
+| /home/crystal9210/Go_util_templates/test_practice/someprocess/someprocess.go                                             | Go               |          7 |          0 |          3 |         10 |
+| /home/crystal9210/Go_util_templates/test_practice/someprocess/someprocess_test.go                                        | Go               |         26 |          0 |          5 |         31 |
+| /home/crystal9210/Go_util_templates/test_practice/sub_test_out/calc.go                                                   | Go               |          4 |          0 |          2 |          6 |
+| /home/crystal9210/Go_util_templates/test_practice/sub_test_out/calc_test.go                                              | Go               |         61 |          0 |          5 |         66 |
+| /home/crystal9210/Go_util_templates/test_practice/testify/main.go                                                        | Go               |         39 |          0 |         12 |         51 |
+| /home/crystal9210/Go_util_templates/test_practice/testify/main_test.go                                                   | Go               |         35 |          0 |         12 |         47 |
+| Total                                                                                                                    |                  |      3,664 |          0 |        794 |      4,458 |
++--------------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+

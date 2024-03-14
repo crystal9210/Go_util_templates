@@ -1,0 +1,94 @@
+"filename", "language", "Go Module File", "Go", "Go Checksum File", "Protocol Buffers", "comment", "blank", "total"
+"/home/crystal9210/Go_util_templates/E2EE/ecdh.go", "Go", 0, 22, 0, 0, 0, 5, 27
+"/home/crystal9210/Go_util_templates/E2EE/encryption.go", "Go", 0, 54, 0, 0, 0, 13, 67
+"/home/crystal9210/Go_util_templates/E2EE/generateKey.go", "Go", 0, 22, 0, 0, 0, 5, 27
+"/home/crystal9210/Go_util_templates/E2EE/go.mod", "Go Module File", 3, 0, 0, 0, 0, 3, 6
+"/home/crystal9210/Go_util_templates/E2EE/go.sum", "Go Checksum File", 0, 0, 2, 0, 0, 1, 3
+"/home/crystal9210/Go_util_templates/E2EE/keyExchange.go", "Go", 0, 5, 0, 0, 0, 3, 8
+"/home/crystal9210/Go_util_templates/E2EE/main.go", "Go", 0, 83, 0, 0, 0, 18, 101
+"/home/crystal9210/Go_util_templates/GoAsyncWorkerPool/bench_test.go", "Go", 0, 21, 0, 0, 0, 6, 27
+"/home/crystal9210/Go_util_templates/GoAsyncWorkerPool/go.mod", "Go Module File", 2, 0, 0, 0, 0, 2, 4
+"/home/crystal9210/Go_util_templates/GoAsyncWorkerPool/go.sum", "Go Checksum File", 0, 0, 0, 0, 0, 1, 1
+"/home/crystal9210/Go_util_templates/GoAsyncWorkerPool/main.go", "Go", 0, 42, 0, 0, 0, 10, 52
+"/home/crystal9210/Go_util_templates/GoAsyncWorkerPool/pool/dispatcher.go", "Go", 0, 95, 0, 0, 0, 12, 107
+"/home/crystal9210/Go_util_templates/GoAsyncWorkerPool/work/work.go", "Go", 0, 34, 0, 0, 0, 7, 41
+"/home/crystal9210/Go_util_templates/advance_examples/context/context.go", "Go", 0, 58, 0, 0, 0, 13, 71
+"/home/crystal9210/Go_util_templates/advance_examples/context/context_test.go", "Go", 0, 40, 0, 0, 0, 7, 47
+"/home/crystal9210/Go_util_templates/advance_examples/gin_context.go", "Go", 0, 41, 0, 0, 0, 10, 51
+"/home/crystal9210/Go_util_templates/advance_examples/go.mod", "Go Module File", 30, 0, 0, 0, 0, 3, 33
+"/home/crystal9210/Go_util_templates/advance_examples/go.sum", "Go Checksum File", 0, 0, 83, 0, 0, 1, 84
+"/home/crystal9210/Go_util_templates/advance_examples/interface.go", "Go", 0, 10, 0, 0, 0, 5, 15
+"/home/crystal9210/Go_util_templates/bad/bad.go", "Go", 0, 139, 0, 0, 0, 20, 159
+"/home/crystal9210/Go_util_templates/btree.go", "Go", 0, 164, 0, 0, 0, 26, 190
+"/home/crystal9210/Go_util_templates/fundamentals/baffaringchannel.go", "Go", 0, 22, 0, 0, 0, 7, 29
+"/home/crystal9210/Go_util_templates/fundamentals/channel.go", "Go", 0, 16, 0, 0, 0, 9, 25
+"/home/crystal9210/Go_util_templates/fundamentals/closing_channels.go", "Go", 0, 40, 0, 0, 0, 11, 51
+"/home/crystal9210/Go_util_templates/fundamentals/directions_channel.go", "Go", 0, 19, 0, 0, 0, 6, 25
+"/home/crystal9210/Go_util_templates/fundamentals/goroutine.go", "Go", 0, 26, 0, 0, 0, 10, 36
+"/home/crystal9210/Go_util_templates/fundamentals/non_blocking_channel_operation.go", "Go", 0, 37, 0, 0, 0, 13, 50
+"/home/crystal9210/Go_util_templates/fundamentals/range_over_channels.go", "Go", 0, 12, 0, 0, 0, 6, 18
+"/home/crystal9210/Go_util_templates/fundamentals/select.go", "Go", 0, 25, 0, 0, 0, 5, 30
+"/home/crystal9210/Go_util_templates/fundamentals/ticker.go", "Go", 0, 24, 0, 0, 0, 6, 30
+"/home/crystal9210/Go_util_templates/fundamentals/timeout.go", "Go", 0, 30, 0, 0, 0, 6, 36
+"/home/crystal9210/Go_util_templates/fundamentals/timers.go", "Go", 0, 30, 0, 0, 0, 11, 41
+"/home/crystal9210/Go_util_templates/fundamentals/waitgroup.go", "Go", 0, 16, 0, 0, 0, 7, 23
+"/home/crystal9210/Go_util_templates/fundamentals/waitgroups.go", "Go", 0, 31, 0, 0, 0, 12, 43
+"/home/crystal9210/Go_util_templates/fundamentals/workerpool.go", "Go", 0, 29, 0, 0, 0, 7, 36
+"/home/crystal9210/Go_util_templates/go_worker_pool/bench_test.go", "Go", 0, 21, 0, 0, 0, 6, 27
+"/home/crystal9210/Go_util_templates/go_worker_pool/go.mod", "Go Module File", 2, 0, 0, 0, 0, 2, 4
+"/home/crystal9210/Go_util_templates/go_worker_pool/main.go", "Go", 0, 48, 0, 0, 0, 12, 60
+"/home/crystal9210/Go_util_templates/go_worker_pool/pool/dispatcher.go", "Go", 0, 44, 0, 0, 0, 8, 52
+"/home/crystal9210/Go_util_templates/go_worker_pool/pool/worker.go", "Go", 0, 44, 0, 0, 0, 6, 50
+"/home/crystal9210/Go_util_templates/go_worker_pool/work/work.go", "Go", 0, 45, 0, 0, 0, 7, 52
+"/home/crystal9210/Go_util_templates/grpc_ex/addressbook.proto", "Protocol Buffers", 0, 0, 0, 45, 0, 12, 57
+"/home/crystal9210/Go_util_templates/grpc_ex/cmd/add_person/add_person.go", "Go", 0, 116, 0, 0, 0, 17, 133
+"/home/crystal9210/Go_util_templates/grpc_ex/cmd/list_people/list_people.go", "Go", 0, 54, 0, 0, 0, 12, 66
+"/home/crystal9210/Go_util_templates/grpc_ex/github.com/protocolbuffers/protobuf/examples/go/tutorialpb/addressbook.pb.go", "Go", 0, 355, 0, 0, 0, 50, 405
+"/home/crystal9210/Go_util_templates/grpc_ex/go.mod", "Go Module File", 3, 0, 0, 0, 0, 3, 6
+"/home/crystal9210/Go_util_templates/grpc_ex/go.sum", "Go Checksum File", 0, 0, 8, 0, 0, 1, 9
+"/home/crystal9210/Go_util_templates/learn_channelOfGo/main.go", "Go", 0, 62, 0, 0, 0, 7, 69
+"/home/crystal9210/Go_util_templates/learn_nethttp_package_go/main.go", "Go", 0, 17, 0, 0, 0, 5, 22
+"/home/crystal9210/Go_util_templates/serverpush/go.mod", "Go Module File", 14, 0, 0, 0, 0, 4, 18
+"/home/crystal9210/Go_util_templates/serverpush/go.sum", "Go Checksum File", 0, 0, 31, 0, 0, 1, 32
+"/home/crystal9210/Go_util_templates/serverpush/main.go", "Go", 0, 59, 0, 0, 0, 16, 75
+"/home/crystal9210/Go_util_templates/sharding/data.go", "Go", 0, 15, 0, 0, 0, 4, 19
+"/home/crystal9210/Go_util_templates/sharding/go.mod", "Go Module File", 2, 0, 0, 0, 0, 2, 4
+"/home/crystal9210/Go_util_templates/sharding/main.go", "Go", 0, 54, 0, 0, 0, 11, 65
+"/home/crystal9210/Go_util_templates/sharding/shard.go", "Go", 0, 26, 0, 0, 0, 7, 33
+"/home/crystal9210/Go_util_templates/test_practice/benchmark/animals/animals.go", "Go", 0, 13, 0, 0, 0, 5, 18
+"/home/crystal9210/Go_util_templates/test_practice/benchmark/animals/animals_test.go", "Go", 0, 45, 0, 0, 0, 11, 56
+"/home/crystal9210/Go_util_templates/test_practice/benchmark/foods/foods.go", "Go", 0, 10, 0, 0, 0, 4, 14
+"/home/crystal9210/Go_util_templates/test_practice/calc/calc.go", "Go", 0, 4, 0, 0, 0, 2, 6
+"/home/crystal9210/Go_util_templates/test_practice/calc/calc_test.go", "Go", 0, 25, 0, 0, 0, 4, 29
+"/home/crystal9210/Go_util_templates/test_practice/defaultpack_mock/mock_sample/mock_sample.go", "Go", 0, 41, 0, 0, 0, 10, 51
+"/home/crystal9210/Go_util_templates/test_practice/defaultpack_mock/sample.go", "Go", 0, 5, 0, 0, 0, 2, 7
+"/home/crystal9210/Go_util_templates/test_practice/defaultpack_mock/sample_test.go", "Go", 0, 21, 0, 0, 0, 8, 29
+"/home/crystal9210/Go_util_templates/test_practice/easy_subtest/animals/animals.go", "Go", 0, 13, 0, 0, 0, 5, 18
+"/home/crystal9210/Go_util_templates/test_practice/easy_subtest/animals/animals_test.go", "Go", 0, 33, 0, 0, 0, 8, 41
+"/home/crystal9210/Go_util_templates/test_practice/easy_subtest/foods/foods.go", "Go", 0, 10, 0, 0, 0, 4, 14
+"/home/crystal9210/Go_util_templates/test_practice/go.mod", "Go Module File", 12, 0, 0, 0, 0, 4, 16
+"/home/crystal9210/Go_util_templates/test_practice/go.sum", "Go Checksum File", 0, 0, 37, 0, 0, 1, 38
+"/home/crystal9210/Go_util_templates/test_practice/integration_test/go.mod", "Go Module File", 2, 0, 0, 0, 0, 2, 4
+"/home/crystal9210/Go_util_templates/test_practice/integration_test/handler/handler.go", "Go", 0, 64, 0, 0, 0, 11, 75
+"/home/crystal9210/Go_util_templates/test_practice/integration_test/handler/handler_test.go", "Go", 0, 56, 0, 0, 0, 9, 65
+"/home/crystal9210/Go_util_templates/test_practice/integration_test/main.go", "Go", 0, 24, 0, 0, 0, 7, 31
+"/home/crystal9210/Go_util_templates/test_practice/integration_test/model/user.go", "Go", 0, 6, 0, 0, 0, 2, 8
+"/home/crystal9210/Go_util_templates/test_practice/integration_test/repository/user.go", "Go", 0, 19, 0, 0, 0, 5, 24
+"/home/crystal9210/Go_util_templates/test_practice/mock/mock_sample/mock_sample.go", "Go", 0, 45, 0, 0, 0, 10, 55
+"/home/crystal9210/Go_util_templates/test_practice/mock/sample.go", "Go", 0, 4, 0, 0, 0, 2, 6
+"/home/crystal9210/Go_util_templates/test_practice/mock/sample_test.go", "Go", 0, 23, 0, 0, 0, 8, 31
+"/home/crystal9210/Go_util_templates/test_practice/re_mock_with_testify/main.go", "Go", 0, 37, 0, 0, 0, 9, 46
+"/home/crystal9210/Go_util_templates/test_practice/re_mock_with_testify/main_test.go", "Go", 0, 36, 0, 0, 0, 9, 45
+"/home/crystal9210/Go_util_templates/test_practice/re_testify_test/main.go", "Go", 0, 12, 0, 0, 0, 4, 16
+"/home/crystal9210/Go_util_templates/test_practice/re_testify_test/main_test.go", "Go", 0, 65, 0, 0, 0, 11, 76
+"/home/crystal9210/Go_util_templates/test_practice/re_unit_test/main.go", "Go", 0, 9, 0, 0, 0, 4, 13
+"/home/crystal9210/Go_util_templates/test_practice/re_unit_test/main_test.go", "Go", 0, 35, 0, 0, 0, 9, 44
+"/home/crystal9210/Go_util_templates/test_practice/somefunc/somefunc.go", "Go", 0, 14, 0, 0, 0, 6, 20
+"/home/crystal9210/Go_util_templates/test_practice/somefunc/somefunc_test.go", "Go", 0, 30, 0, 0, 0, 7, 37
+"/home/crystal9210/Go_util_templates/test_practice/someprocess/someprocess.go", "Go", 0, 7, 0, 0, 0, 3, 10
+"/home/crystal9210/Go_util_templates/test_practice/someprocess/someprocess_test.go", "Go", 0, 26, 0, 0, 0, 5, 31
+"/home/crystal9210/Go_util_templates/test_practice/sub_test_out/calc.go", "Go", 0, 4, 0, 0, 0, 2, 6
+"/home/crystal9210/Go_util_templates/test_practice/sub_test_out/calc_test.go", "Go", 0, 61, 0, 0, 0, 5, 66
+"/home/crystal9210/Go_util_templates/test_practice/testify/main.go", "Go", 0, 39, 0, 0, 0, 12, 51
+"/home/crystal9210/Go_util_templates/test_practice/testify/main_test.go", "Go", 0, 35, 0, 0, 0, 12, 47
+"Total", "-", 70, 3018, 161, 45, 0, 702, 3996

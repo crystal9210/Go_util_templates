@@ -1,0 +1,5 @@
+"filename", "language", "Go Module File", "Go", "Go Checksum File", "comment", "blank", "total"
+"/home/crystal9210/Go_util_templates/serverpush/go.mod", "Go Module File", 14, 0, 0, 0, 4, 18
+"/home/crystal9210/Go_util_templates/serverpush/go.sum", "Go Checksum File", 0, 0, 31, 0, 1, 32
+"/home/crystal9210/Go_util_templates/serverpush/main.go", "Go", 0, 59, 0, 0, 16, 75
+"Total", "-", 14, 59, 31, 0, 21, 125

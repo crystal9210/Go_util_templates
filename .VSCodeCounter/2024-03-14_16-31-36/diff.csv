@@ -1,0 +1,12 @@
+"filename", "language", "Go", "Go Module File", "Go Checksum File", "comment", "blank", "total"
+"/home/crystal9210/Go_util_templates/E2EE/ecdh.go", "Go", 22, 0, 0, 0, 5, 27
+"/home/crystal9210/Go_util_templates/E2EE/encryption.go", "Go", 54, 0, 0, 0, 13, 67
+"/home/crystal9210/Go_util_templates/E2EE/generateKey.go", "Go", 22, 0, 0, 0, 5, 27
+"/home/crystal9210/Go_util_templates/E2EE/go.mod", "Go Module File", 0, 3, 0, 0, 3, 6
+"/home/crystal9210/Go_util_templates/E2EE/go.sum", "Go Checksum File", 0, 0, 2, 0, 1, 3
+"/home/crystal9210/Go_util_templates/E2EE/keyExchange.go", "Go", 5, 0, 0, 0, 3, 8
+"/home/crystal9210/Go_util_templates/E2EE/main.go", "Go", 83, 0, 0, 0, 18, 101
+"/home/crystal9210/Go_util_templates/serverpush/go.mod", "Go Module File", 0, -14, 0, 0, -4, -18
+"/home/crystal9210/Go_util_templates/serverpush/go.sum", "Go Checksum File", 0, 0, -31, 0, -1, -32
+"/home/crystal9210/Go_util_templates/serverpush/main.go", "Go", -59, 0, 0, 0, -16, -75
+"Total", "-", 127, -11, -29, 0, 27, 114
