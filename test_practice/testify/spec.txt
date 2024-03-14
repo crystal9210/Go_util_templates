@@ -1,0 +1,9 @@
+〇アサーションライブラリを使うメリット：自分でエラーメッセージを丁寧に書く必要がない
+
+〇suiteパッケージを使うメリット：
+テストをグルーピングする→パッケージよりも細かい単位(テストスートで)
+
+【参照】
+https://qiita.com/dkoide/items/aa5293703d5e9fde9bcb
+
+https://pkg.go.dev/github.com/stretchr/testify@v1.6.1#section-readme

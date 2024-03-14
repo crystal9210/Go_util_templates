@@ -1,0 +1,3 @@
+mode: set
+test_mod/re_unit_test/main.go:5.36,8.2 2 1
+test_mod/re_unit_test/main.go:10.13,12.2 1 0

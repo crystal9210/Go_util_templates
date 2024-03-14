@@ -1,0 +1,2 @@
+【参照】
+https://tutorialedge.net/golang/improving-your-tests-with-testify-go/

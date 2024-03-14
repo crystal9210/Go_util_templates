@@ -1,0 +1,7 @@
+・プローブ：特定のURLへのHTTP GETリクエストを行い、そのURLが正常に応答するかどうかをチェックする仕組み
+
+・Prober インターフェース：
+Probe メソッドを持つ任意の型を定義します。このメソッドはstring型のURLを受け取り、bool型を返します。boolの値は、指定されたURLが正常に応答するかどうかを示します。
+
+・定義と宣言の違いについて→https://www2.u-gakugei.ac.jp/~miyadera/LECTURE/ElecBook2/ptech152.htm#:~:text=%E3%81%93%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%A7%E6%B3%A8%E7%9B%AE%E3%81%97,%E5%AE%9A%E7%BE%A9%E3%81%AE%E9%81%95%E3%81%84%E3%81%A7%E3%81%82%E3%82%8B%EF%BC%8E&text=%E5%AE%A3%E8%A8%80%E3%81%A8%E3%81%AF%E9%96%A2%E6%95%B0%E3%81%AE,%E3%81%9D%E3%81%AE%E9%96%A2%E6%95%B0%E3%81%9D%E3%81%AE%E3%82%82%E3%81%AE%E3%81%A7%E3%81%82%E3%82%8B%EF%BC%8E
+
